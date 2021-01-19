@@ -1,0 +1,5 @@
+.vscode/
+bin/
+doc/
+test/out/
+valgrind.log
