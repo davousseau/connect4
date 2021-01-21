@@ -23,27 +23,37 @@ Projet effectué dans le cadre du cours **INF3135 Construction et maintenance de
 ## Description
 Adaptation du jeu [Puissance 4](https://fr.wikipedia.org/wiki/Puissance_4) en C pour y jouer dans un terminal linux. À noter que l'implémentation est à sa forme la plus simple et que les deux joueurs doivent se partager le même clavier.
 
+## Compatibilité
+Testé sous un environnement **Linux seulement**.
+
+## Dépendances
+- [GCC, the GNU Compiler Collection](https://gcc.gnu.org/), compilateur pour le language C/C++.
+- [Doxygen <sup>*</sup>](https://www.doxygen.nl/index.html), outil pour générer la documentation automatique.
+- [Valgrind <sup>*</sup>](https://www.valgrind.org/), outil pour vérifier qu'il n'y a pas de fuites de mémoire.
+
+_<sup>*</sup> Dépendances optionnelles selon votre utilisation._ 
+
 ## Environnement suggéré
 - [VS Code](https://code.visualstudio.com/), éditeur de texte pour modifier le code.
-- [C/C++ Microsoft](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools), extension du language C réservé à l'usage de VS Code.
-- [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight), extension d'affichage des TODOs réservé à l'usage de VS Code.
-- [Doxygen](https://www.doxygen.nl/index.html), outil pour générer la documentation automatique.
-- [Valgrind](https://www.valgrind.org/), outil pour vérifier qu'il n'y a pas de fuites de mémoire.
+    - [C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools), extension pour le language C/C++.
+    - [Doxygen Documentation Generator](https://marketplace.visualstudio.com/items?itemName=cschlosser.doxdocgen), extension pour générer la documentation.
+    - [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight), extension pour afficher les TODOs.
 
 ## Installation
 `make`, compile le jeu.<br>
-`make doc`, génère la documentation du projet. **(requiert Doxygen)**<br>
-`make memcheck`, vérifie qu'il n'y a pas de fuites de mémoire. **(requiert Valgrind)**<br>
+`make doc`, génère la documentation du projet.<br>
+`make memcheck`, vérifie qu'il n'y a pas de fuites de mémoire.<br>
 `make test`, exécute une série de tests.<br>
 `make clean`, supprime les fichiers compilés.
-
-## Compatibilité
-Testé sous un environnement **Linux seulement**.
 
 ## Fonctionnement
 TODO:
 
-## Références
+## Documentations
+- [C Programming Language](https://devdocs.io/c/)
 - [Bash Reference Manual](https://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html)
 - [Doxygen manual](http://cs.swan.ac.uk/~csoliver/ok-sat-library/internet_html/doc/doc/Doxygen/1.7.6.1/html/config.html)
 - [Valgrind User Manual](https://www.valgrind.org/docs/manual/manual.html)
+
+## Référence
+- [How to Change the Color of your Linux Prompt](https://linuxhostsupport.com/blog/how-to-change-the-color-of-your-linux-prompt/)
