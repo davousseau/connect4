@@ -24,11 +24,11 @@ memcheck: default
 	--track-origins=yes \
 	--verbose \
 	--log-file=valgrind.log \
-	bin/connect4 test/in/test6.in
+	bin/connect4 test/data/test6.in
 
 test: default
-	mkdir -p $@/out
+	mkdir -p $@/log
 	$@/tests.sh
 
 clean:
-	rm -rf bin doc test/out valgrind.log
+	rm -rf bin doc test/log valgrind.log
