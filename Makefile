@@ -1,5 +1,3 @@
-# @author: David Brousseau
-
 CFLAGS = -std=c99 -pedantic -W -Wall
 
 .PHONY: default memcheck test clean
@@ -31,4 +29,4 @@ test: default
 	$@/tests.sh
 
 clean:
-	rm -rf bin doc test/log valgrind.log
+	rm -rf bin doc *log

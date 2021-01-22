@@ -1,5 +1,4 @@
 .vscode/
 bin/
 doc/
-test/log/
-valgrind.log
+*log
