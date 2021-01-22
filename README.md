@@ -1,8 +1,8 @@
 # Puissance 4
 ```
-Player X action: 
+Player X action:
 
-  1 2 3 4 5 6 7 
+  1 2 3 4 5 6 7
 |               |
 |               |
 |       X       |
@@ -31,11 +31,12 @@ Testé sous un environnement **Linux seulement**.
 - [Doxygen <sup>*</sup>](https://www.doxygen.nl/index.html), outil pour générer la documentation automatique.
 - [Valgrind <sup>*</sup>](https://www.valgrind.org/), outil pour vérifier qu'il n'y a pas de fuites de mémoire.
 
-_<sup>*</sup> Dépendances optionnelles selon votre utilisation._ 
+_<sup>*</sup> Dépendances optionnelles selon votre utilisation._
 
 ## Environnement suggéré
 - [VS Code](https://code.visualstudio.com/), éditeur de texte pour modifier le code.
     - [C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools), extension pour le language C/C++.
+    - [Clang-Format](https://marketplace.visualstudio.com/items?itemName=xaver.clang-format), extension pour le formatage du code.
     - [Doxygen Documentation Generator](https://marketplace.visualstudio.com/items?itemName=cschlosser.doxdocgen), extension pour générer la documentation.
     - [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight), extension pour afficher les TODOs.
 
@@ -49,11 +50,6 @@ _<sup>*</sup> Dépendances optionnelles selon votre utilisation._
 ## Fonctionnement
 TODO:
 
-## Documentations
-- [C Programming Language](https://devdocs.io/c/)
-- [Bash Reference Manual](https://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html)
-- [Doxygen manual](http://cs.swan.ac.uk/~csoliver/ok-sat-library/internet_html/doc/doc/Doxygen/1.7.6.1/html/config.html)
-- [Valgrind User Manual](https://www.valgrind.org/docs/manual/manual.html)
-
-## Référence
+## Références
+- [Bash scripting cheatsheet](https://devhints.io/bash)
 - [How to Change the Color of your Linux Prompt](https://linuxhostsupport.com/blog/how-to-change-the-color-of-your-linux-prompt/)
