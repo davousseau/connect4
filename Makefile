@@ -1,6 +1,7 @@
 CFLAGS = -std=c99 -pedantic -W -Wall
 
 .PHONY: default memcheck test clean
+.SILENT: doc memcheck
 
 default:
 	mkdir -p bin
@@ -8,12 +9,13 @@ default:
 
 doc:
 	mkdir -p $@
-	(cat Doxyfile ; echo 'GENERATE_LATEX=NO';\
+	(cat Doxyfile 2> doxygen.log;\
+	echo 'GENERATE_LATEX=NO';\
 	echo 'HAVE_DOT=NO';\
 	echo 'OPTIMIZE_OUTPUT_FOR_C=YES';\
 	echo 'OUTPUT_DIRECTORY=$@';\
 	echo 'PROJECT_NAME="Puissance 4"';\
-	echo 'RECURSIVE=YES') | doxygen -
+	echo 'RECURSIVE=YES') | doxygen - >> doxygen.log
 	ln -rsf $@/html/index.html $@/index.html
 
 memcheck: default
@@ -22,11 +24,10 @@ memcheck: default
 	--track-origins=yes \
 	--verbose \
 	--log-file=valgrind.log \
-	bin/connect4 test/data/test6.in
+	bin/connect4 < tests-data/td06.in > /dev/null
 
 test: default
-	mkdir -p $@/log
-	$@/tests.sh
+	./tests.sh
 
 clean:
 	rm -rf bin doc *log
