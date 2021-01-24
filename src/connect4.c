@@ -142,7 +142,7 @@ void checkLines() {
  * @brief Clear the buffer and invalidate multiple entry.
  * @param ascii Character ASCII code
  */
-void clearBuffer(int * ascii) {
+void clearBuffer(int *ascii) {
     if (getchar() != '\n') {
         while (getchar() != '\n') {}
         *ascii = 56;
