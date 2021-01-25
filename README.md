@@ -21,7 +21,7 @@ Player X wins!
 Projet effectué dans le cadre du cours **INF3135 Construction et maintenance de logiciels**, remis à l'enseignant **Alexandre Terrasa** à l'[Université du Québec à Montréal](https://etudier.uqam.ca/) le 26 septembre 2018. Ce projet a été retranscris en janvier 2021 pour le rendre public et l'insérer dans mon porte-folio.
 
 ## Description
-Adaptation du jeu [Puissance 4](https://fr.wikipedia.org/wiki/Puissance_4) en C pour y jouer dans un terminal linux. À noter que l'implémentation est à sa forme la plus simple et que les deux joueurs doivent se partager le même clavier.
+Adaptation du jeu [Puissance 4](https://fr.wikipedia.org/wiki/Puissance_4) en C pour y jouer dans un terminal Linux. À noter que l'implémentation est à sa forme la plus simple et que les deux joueurs doivent se partager le même clavier.
 
 ## Compatibilité
 Testé sous un environnement **Linux seulement**.
