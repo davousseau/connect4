@@ -152,7 +152,7 @@ void clearBuffer(int *ascii) {
 /** @brief Display the grid. */
 void displayGrid() {
     int i, j;
-    printf("\n  1 2 3 4 5 6 7 \n");
+    printf("\n  1 2 3 4 5 6 7\n");
     for (i = 0; i < 6; i++) {
         printf("|");
         for (j = 0; j < 7; j++) { printf(" %c", grid[i][j]); }

@@ -55,7 +55,7 @@ memcheck: default
 	$(BIN_DIR)/$(EXEC) < $(TESTS_DATA_DIR)/test_06.in > /dev/null
 
 # Run a series of tests.
-test: default
+test:
 	rm -rf $(TESTS_LOG_DIR)
 	mkdir $(TESTS_LOG_DIR)
 	./$(TESTS)
