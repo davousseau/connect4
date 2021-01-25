@@ -48,8 +48,13 @@ _<sup>*</sup> Dépendances optionnelles selon votre utilisation._
 `make clean`, supprime les fichiers compilés.
 
 ## Fonctionnement
-TODO:
+```
+bin/connect4
+```
+
+Utilisez les chiffres de `1` à `7` pour sélectionner une colonne à insérer et le `0` pour quitter la partie. Assurez-vous d'être attentif au nom du joueur en cours, car il est impossible de revenir en arrière.
 
 ## Références
 - [Bash scripting cheatsheet](https://devhints.io/bash)
+- [Bash get basename of filename or directory name](https://www.cyberciti.biz/faq/bash-get-basename-of-filename-or-directory-name/)
 - [How to Change the Color of your Linux Prompt](https://linuxhostsupport.com/blog/how-to-change-the-color-of-your-linux-prompt/)
