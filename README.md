@@ -15,7 +15,7 @@ Player X wins!
 ```
 
 ## Auteur
-[David Brousseau](mailto:dbrsseau@gmail.com)
+[David Brousseau](mailto:davousseau@gmail.com)
 
 ## Contexte académique
 Projet effectué dans le cadre du cours **INF3135 Construction et maintenance de logiciels**, remis à l'enseignant **Alexandre Terrasa** à l'[Université du Québec à Montréal](https://etudier.uqam.ca/) le 26 septembre 2018. Ce projet a été retranscris en janvier 2021 pour le rendre public et l'insérer dans mon porte-folio.
